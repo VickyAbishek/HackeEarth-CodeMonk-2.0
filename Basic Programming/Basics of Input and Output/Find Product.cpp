@@ -6,13 +6,13 @@ int main()
 {
 	int n;
 	cin >> n;
-	cout << m << endl;
 	int arr[n];
-	for(int i=0;i<n;i++)
+	long res = 1;
+	for(int i=0; i<n; i++)
+	{
 		cin >> arr[i];
-	int res = 1;
-	for(int i=0;i<n;i++)
-		res = (res * arr[i]) % m;
+		res = ( res * arr[i] ) % m;
+	}
 	cout << res << endl;
 	return 0;
 }
