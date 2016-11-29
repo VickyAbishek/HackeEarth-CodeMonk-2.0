@@ -8,14 +8,11 @@ int main()
 	int k = n;
 	int arr[n] ; 
 	cout << "array" << endl;
-	for (int i = 0; i < n; i++)
-	{
-		cout < arr[i] << endl;
-	}
+
 	
 	for (int i = 0; i < n; i++)
 	{
-		arr[n] = 0;
+		arr[i] = 0;
 	}
 	//arr[k] = {0};
 	//cout << "arr" << arr[0] << endl;
@@ -48,7 +45,6 @@ int main()
 		}
 		arr[n] = pv;
 	}
-	//SSSSSEEESSCCCCCCCS
 	int x = 0 ;
 	for (int i = (k-1); i >=0 ; i--)
 	{
